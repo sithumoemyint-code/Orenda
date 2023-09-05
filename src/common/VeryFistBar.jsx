@@ -1,5 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  FaFacebookF, FaYoutube } from "react-icons/fa"
 
 const VeryFistBar = () => {
     return (
@@ -36,9 +36,24 @@ const VeryFistBar = () => {
                 </div>
                 
                 <div className='flex items-center cursor-pointer'>
+                    <div className='relative group'>
+                        <div className='mx-4 flex gap-2'>
+                            <p className='text-slate-100'>
+                                English
+                            </p>
+                            <span className='text-white  '>&#8744;</span>
+                        </div>
+                        <div className='bg-white absolute right-2 shadow-lg hidden group-hover:block border-t-4 border-lineGoldColor w-40 px-3 divide-y divide-slate-200'>
+                            <p className='py-2 hover:text-textGoldColor transition-colors duration-300'>Japan</p>
+                            <p className='py-2 hover:text-textGoldColor transition-colors duration-300'>USA</p>
+                        </div>
+                    </div>
                     
-                    <p className='text-slate-100'>English</p>
-                    {/* <FontAwesomeIcon icon={faFacebookF} /> */}
+                    <div className='flex gap-3'>
+                        <FaFacebookF color='white' />
+                        <FaYoutube color='white' />
+                    </div>
+                    
                 </div>
             </div>
         </div>
