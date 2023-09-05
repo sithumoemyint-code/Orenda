@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import {Footer, VeryFistBar} from "./common"
+import Routes from "./RoutesList"
 
 function App() {
 
   return (
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="min-h-screen	flex flex-col">
+      <VeryFistBar />
+      <Routes />
+      <Footer />
+    </div>
   )
 }
 

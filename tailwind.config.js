@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        purple: "#31223F",
+        lineGoldColor: "#FCA411",
+        textGoldColor: "#FC940E",
+        btnGoldColor: "#FCB815",
+      }
+    },
   },
   plugins: [],
 }
