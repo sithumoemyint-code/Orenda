@@ -2,7 +2,7 @@ import React from 'react'
 import { BiWorld } from "react-icons/bi"
 import { AiOutlineDropbox, AiOutlineFile, AiOutlineMail } from "react-icons/ai"
 import { IoIosPeople } from "react-icons/io"
-import { ImLocation } from "react-icons/im"
+import { MdOutlineEditLocation } from "react-icons/md"
 import { BsFillTelephoneFill } from "react-icons/bs"
 import logo from '../assets/logo-h.png'
 import Capture from '../assets/Capture.png'
@@ -55,8 +55,13 @@ const Footer = () => {
                         </div>
                         <div className='mt-6'>
                             <span className='font-bold '>ORENDA JOINT STOCK COMPANY</span>
-                            <div className='pt-2 flex gap-2 items-center'>
-                                <ImLocation />
+                            <div className='pt-2 flex gap-2 md:items-start items-center'>
+                                <div className='md:hidden'>
+                                    <MdOutlineEditLocation />
+                                </div>
+                                <div className='md:block hidden md:pt-2 '>
+                                    <MdOutlineEditLocation size={18} />
+                                </div>
                                 <p>No. 25 To Vinh Dien Street, Thanh Xuan District, Hanoi, Vietnam</p>
                             </div>
                             <div className='pt-2 flex gap-2 items-center'>

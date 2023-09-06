@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "value": "Hello ",
+        "header": "Information Technology Outsourcing",
+        "icon": "BsMicrosoft",
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/bg-tab-dich-vu-2.png",
+        "description": "Web-based software and mobile application outsourced by Orenda are strictly committed to quality and progression. That has been verified by our pretigious worldwide clients."
+    },
+    {
+        "id": 1,
+        "value": " World",
+        "header": "Software Development",
+        "icon": "BsMicrosoftTeams",
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/bg-tab-dich-vu-3.png",
+        "description": "Software developed by Orenda are highly appreciated by our customers as the significant values providing in various industries and sectors."
+    },
+    {
+        "id": 2,
+        "value": "Filter",
+        "header": "IT Solutions Consulting",
+        "icon": "FaAccusoft",
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/bg-tab-dich-vu-4.png",
+        "description": "With experience gained from many different projects, our talented technicians are confident to deliver the most suitable solutions for our clients and partners."
+    }
+]
