@@ -2,6 +2,7 @@ import  { useEffect, useRef } from 'react'
 import logo from '../assets/logo-h.png'
 import NavBars from '../data/nav.json'
 import {  BiChevronDown } from "react-icons/bi"
+import NavCss from './Navbar.module.css'
 
 const NavBar = () => {
     const headerRef = useRef(null)
@@ -21,19 +22,18 @@ const NavBar = () => {
                     <img src={logo} alt="Logo" />
                 </div>
                 
-                <div className='flex items-center' >
+                <div className={`flex items-center ${NavCss.mobile_toggle}`} >
                     <div className='relative group'>
                         <>
-                            <span className='cursor-pointer font-semibold hover:text-textGoldColor transition-colors duration-300 flex  items-center'>
+                            <span className='cursor-pointer font-semibold  hover:border-textGoldColor hover:text-textGoldColor transition-colors duration-300 flex  items-center'>
                                 Service
                                 <BiChevronDown  />
                             </span>
-                            <div className=' group-hover:border-t-4 border-indigo-500' />
                         </>
                         
-                        <div className='bg-white absolute top-10 right-2 shadow-lg hidden group-hover:block border-t-4 border-lineGoldColor w-40 px-3 divide-y divide-slate-200'>
-                            <p className='py-2 hover:text-textGoldColor transition-colors duration-300'>Japan</p>
-                            <p className='py-2 hover:text-textGoldColor transition-colors duration-300'>USA</p>
+                        <div className='bg-white absolute right-2 shadow-lg hidden group-hover:block border-t-4 border-lineGoldColor w-40 px-3 '>
+                            <p className='cursor-pointer py-2 hover:text-textGoldColor transition-colors  transform  duration-300'>Japan</p>
+                            <p className='cursor-pointer py-2 hover:text-textGoldColor transition-colors  transform  duration-300'>USA</p>
                         </div>
                     </div>
                     

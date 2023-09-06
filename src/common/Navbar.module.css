@@ -1,31 +1,6 @@
-.mobile_toggle,
-.toggle_close {
-    display: none;
-}
 
 @media screen and (max-width: 800px) {
     .mobile_toggle {
-        display: block;
-    }
-
-    .nav_toggle {
         display: none;
-    }
-
-    .mobile_toggle:hover {
-        cursor: pointer;
-        color: #0641b8;
-    }
-    
-    .toggle_close {
-        display: block;
-        position: absolute;
-        left: 20px;
-        font-size: 1.5rem;
-    }
-
-    .toggle_close:hover {
-        cursor: pointer;
-        color: #0641b8;
     }
 }       
