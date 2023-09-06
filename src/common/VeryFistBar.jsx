@@ -1,10 +1,11 @@
 import React from 'react'
 import {  FaFacebookF, FaYoutube } from "react-icons/fa"
+import {  BiChevronDown } from "react-icons/bi"
 
 const VeryFistBar = () => {
     return (
         <div className='bg-purple '>
-            <div className='flex justify-end pr-4'>
+            <div className='flex justify-end  global-container'>
                 <div className="flex p-2 ">
                     <input
                         type="search"
@@ -27,9 +28,9 @@ const VeryFistBar = () => {
                             className="h-5 w-5"
                         >
                             <path
-                                fill-rule="evenodd"
+                                fillRule="evenodd"
                                 d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-                                clip-rule="evenodd" 
+                                clipRule="evenodd" 
                             />
                         </svg>
                     </button>
@@ -37,11 +38,11 @@ const VeryFistBar = () => {
                 
                 <div className='flex items-center cursor-pointer'>
                     <div className='relative group'>
-                        <div className='mx-4 flex gap-2'>
+                        <div className='mx-4 flex gap-2 items-center'>
                             <p className='text-slate-100'>
                                 English
                             </p>
-                            <span className='text-white  '>&#8744;</span>
+                            <BiChevronDown color='white' />
                         </div>
                         <div className='bg-white absolute right-2 shadow-lg hidden group-hover:block border-t-4 border-lineGoldColor w-40 px-3 divide-y divide-slate-200'>
                             <p className='py-2 hover:text-textGoldColor transition-colors duration-300'>Japan</p>

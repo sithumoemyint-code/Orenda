@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global padding ======================================== */
+.global-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+}
+/* Global padding ======================================== */
+
+/* Navbar start ========================================== */
+.nav{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    background-color: #fff;
+    --tw-shadow-color: #64748b;
+}
+
+.shrink {
+    height: 0;
+    transition: height .8s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    background-color: #fff;
+    --tw-shadow-color: #64748b;
+}
+
+.shrink.active {
+    height: 77px; /* Set the desired height */
+}
+
+/* Navbar end ========================================== */

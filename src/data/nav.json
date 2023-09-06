@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Products"
+    },
+    {
+        "id": 2,
+        "name": "Projects"
+    },
+    {
+        "id": 3,
+        "name": "About Us"
+    },
+    {
+        "id": 4,
+        "name": "News"
+    },
+    {
+        "id": 5,
+        "name": "Careers"
+    },
+    {
+        "id": 6,
+        "name": "Contact Us"
+    }
+]
