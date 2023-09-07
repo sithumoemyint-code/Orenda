@@ -48,7 +48,7 @@ const OrendaName = () => {
       }
 
     return (
-      <div className='bg-lineGoldColor'>
+      <div className='bg-lineGoldColor py-10'>
           <div className='global-container my-16'>
               <div className=' flex flex-col justify-center items-center '>
                   <p className='text-4xl font-bold text-white'>Orenda’s News</p>
@@ -83,9 +83,8 @@ const OrendaName = () => {
                           <div className='mt-5'>
                             <p className='cursor-pointer font-bold hover:text-textGoldColor transition-colors duration-300'>
                               <span>
-                              {truncateText(orenda.title, 70)}
+                                {truncateText(orenda.title, 50)}
                               </span>
-                              
                             </p>
                           </div>
 

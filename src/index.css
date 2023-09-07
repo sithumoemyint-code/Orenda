@@ -5,81 +5,88 @@
 /* Global padding ======================================== */
 .global-container {
     max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem/* 16px */;
-    padding-right: 1rem/* 16px */;
+    margin: 0 auto;
+    padding: 0 1rem 0 1rem;
 }
 /* Global padding ======================================== */
 
 /* Navbar start ========================================== */
+
 .nav{
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     background-color: #fff;
-    --tw-shadow-color: #64748b;
-    z-index: 999;
+    width: 100%;
+    z-index: 9;
+    height: 70px;
+    transition: height .3s ease;
+    display: flex;
 }
 
 .shrink {
-    height: 0;
-    transition: height .8s ease;
+    height: 70px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    background-color: #fff;
-    --tw-shadow-color: #64748b;
+    z-index: 12;
+    box-shadow: rgba(156, 159, 161, 0.8) 0px 8px 24px;
 }
 
-.shrink.active {
-    height: 77px; /* Set the desired height */
+nav{
+    display: flex;
+    list-style: none;
+    justify-self: center;
 }
 
-.navbar-list {
-    display: block;
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #0D0D0D;
+    user-select: none;
 }
 
-.navbar-list-group {
-    display: block;
+nav a.active{
+    font-weight: 800;
+    color: #0641b8;
 }
 
-.burger-menu {
-    display: none;
+.nav_font{
+    color: #0D0D0D;
+    user-select: none;
 }
 
+.nav_font:hover{
+    color: #7B95C9;
+}
 
-@media screen and (max-width: 848px) {
-    .navbar-list {
-        display: none;
+@media screen and (max-width: 900px) {
+    .nav{
+        height: 60px;
+        box-shadow: rgba(156, 159, 161, 0.8) 0px 8px 24px;
     }
-    
-    .navbar-list-group {
-        display: none;
+
+    nav{
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        justify-content: flex-start;
+        padding-top: 30px;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease;
+        z-index: 99;
     }
 
-    .burger-menu {
-        height: 100%;
-        width: 4em;
+    nav.active {
+        transform: translateX(0);
+    }
+
+    nav .nav-hamburger-list {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
-        cursor: pointer;
-    }
-
-    .burger-bar {
-        width: 4em;
-        height: 0.5em;
-        background-color: gray;
-        border-radius: 0.5em;
-        margin-bottom: 4px;
-    }
-
-    .menu {
-        width: 50%;
-        height: 100vh;
-        background-color: aqua;
+        gap: 30px;
     }
 }
 

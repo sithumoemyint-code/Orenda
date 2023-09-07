@@ -4,7 +4,7 @@ import {  BiChevronDown } from "react-icons/bi"
 
 const VeryFistBar = () => {
     return (
-        <div className='bg-purple '>
+        <div className='bg-purple z-0'>
             <div className='flex justify-end  global-container'>
                 <div className="flex p-2 ">
                     <input

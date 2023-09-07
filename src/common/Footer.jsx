@@ -11,7 +11,7 @@ import CopyRight from './CopyRight'
 const Footer = () => {
     return (
         <>
-            <div className='mt-auto	bg-footerColor'>
+            <div className='mt-auto	bg-footerColor py-10'>
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-4 py-6 global-container '>
                     <div className='text-white'>
                         <div className='md:hidden'>

@@ -25,7 +25,7 @@ const Banner = () => {
     
     return (
         <div  className='relative'>
-            <div className={`h-[580px] w-full m-auto  group `}>
+            <div className={`h-[520px] w-full m-auto  group `}>
                 <div style={{backgroundImage: `url(${banners[currentIndex].url})`}} className='w-full h-full bg-center bg-cover duration-500' />
             </div>
 

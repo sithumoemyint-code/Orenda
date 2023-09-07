@@ -41,7 +41,7 @@ const CustomerService = () => {
   }
     
   return (
-    <div className='bg-[#F4F4F4]'>
+    <div className='bg-[#F4F4F4] py-10'>
         <div className='global-container my-16'>
             <div className=' flex flex-col justify-center items-center '>
               <p className='text-4xl font-bold '>Customers and partners</p>
