@@ -11,7 +11,9 @@ export default {
         lineGoldColor: "#FCA411",
         textGoldColor: "#FC940E",
         btnGoldColor: "#FCB815",
+        cutBGColor: "#F0941E",
         footerColor: "#06101C",
+
       }
     },
   },

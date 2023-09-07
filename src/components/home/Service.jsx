@@ -38,9 +38,16 @@ const Service = () => {
                     <div className='md:col-span-2 col-span-1'>
                         <img src={sliderData.img} alt="" width="100%" />
                     </div>
-                    <div className='mt-20 md:col-span-3 col-span-1'>
-                        <p className='text-8xl text-btnGoldColor font-semibold pb-5 '>{sliderData.id + 1 }</p>
-                        <p className='font-semibold text-2xl'>{sliderData.header}</p>
+                    <div className='md:mt-20 mt-5 md:col-span-3 col-span-1 relative'>
+                        <div className='flex justify-between '>
+                            <p className='text-8xl text-btnGoldColor font-semibold pb-5 '>{sliderData.id + 1 }</p>
+                            <div className='absolute top-0 right-0'>
+                                <img src="https://orenda.vn/wp-content/themes/flatsome-child/img/dich-vu-img-dot.png" alt="" />
+                            </div>
+                            
+                        </div>
+                        
+                        <p className='font-semibold text-2xl pb-5'>{sliderData.header}</p>
                         <p>{sliderData.description}</p>
                     </div>
                 </div>

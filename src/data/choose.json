@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "https://orenda.vn/wp-content/uploads/2022/10/ic3.png",
+        "number": 12,
+        "title": "Year Experience"
+    },
+    {
+        "id": 2,
+        "icon": "https://orenda.vn/wp-content/uploads/2022/10/ic1.png",
+        "number": 0,
+        "title": "Clients"
+    },
+    {
+        "id": 3,
+        "icon": "https://orenda.vn/wp-content/uploads/2022/10/ic4.png",
+        "number": 0,
+        "title": "Projects – Products"
+    },
+    {
+        "id": 4,
+        "icon": "https://orenda.vn/wp-content/uploads/2022/10/ic2.png",
+        "number": 5,
+        "title": "Nations"
+    }
+]
