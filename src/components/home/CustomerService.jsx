@@ -1,6 +1,5 @@
 import React from 'react'
 import customerServices from '../../data/customerService.json'
-import customerServiceGroup from '../../data/customerServiceGroup.json'
 import Slider from 'react-slick'
 
 const CustomerService = () => {
@@ -12,6 +11,7 @@ const CustomerService = () => {
     slidesToScroll: 5,
     initialSlide: 0,
     arrows: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,

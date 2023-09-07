@@ -36,6 +36,54 @@
     height: 77px; /* Set the desired height */
 }
 
+.navbar-list {
+    display: block;
+}
+
+.navbar-list-group {
+    display: block;
+}
+
+.burger-menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 848px) {
+    .navbar-list {
+        display: none;
+    }
+    
+    .navbar-list-group {
+        display: none;
+    }
+
+    .burger-menu {
+        height: 100%;
+        width: 4em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .burger-bar {
+        width: 4em;
+        height: 0.5em;
+        background-color: gray;
+        border-radius: 0.5em;
+        margin-bottom: 4px;
+    }
+
+    .menu {
+        width: 50%;
+        height: 100vh;
+        background-color: aqua;
+    }
+}
+
+
 /* Navbar end ========================================== */
 
 .cut_top {
