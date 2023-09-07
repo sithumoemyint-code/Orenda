@@ -13,7 +13,8 @@ export default {
         btnGoldColor: "#FCB815",
         cutBGColor: "#F0941E",
         footerColor: "#06101C",
-
+        newBgColor: "#F83030",
+        textGray: "#757575"
       }
     },
   },
