@@ -1,8 +1,11 @@
 import React from 'react'
+import { ProductBanner } from '../components'
 
 const Products = () => {
     return (
-        <div>Products</div>
+        <>
+            <ProductBanner />
+        </>
     )
 }
 

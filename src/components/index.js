@@ -7,6 +7,7 @@ import CustomerService from "./home/CustomerService"
 import PBanner from "./projects/PBanner"
 import PJCard from "./projects/PJCard"
 import PJDetail from "./projects/PJDetail"
+import ProductBanner from "./products/ProductBanner"
 
 export {
     Banner,
@@ -17,5 +18,6 @@ export {
     CustomerService,
     PBanner,
     PJCard,
-    PJDetail
+    PJDetail,
+    ProductBanner
 }
