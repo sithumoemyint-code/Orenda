@@ -6,6 +6,7 @@ import AboutUs from "./AboutUs"
 import News from "./News"
 import ContactUs from "./ContactUs"
 import Careers from './Careers'
+import ProjectDetail from "./ProjectDetail"
 
 export {
     Home,
@@ -15,5 +16,6 @@ export {
     AboutUs,
     News,
     ContactUs,
-    Careers
+    Careers,
+    ProjectDetail
 }

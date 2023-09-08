@@ -6,6 +6,7 @@ import OrendaName from "./home/OrendaName"
 import CustomerService from "./home/CustomerService"
 import PBanner from "./projects/PBanner"
 import PJCard from "./projects/PJCard"
+import PJDetail from "./projects/PJDetail"
 
 export {
     Banner,
@@ -15,5 +16,6 @@ export {
     OrendaName,
     CustomerService,
     PBanner,
-    PJCard
+    PJCard,
+    PJDetail
 }
