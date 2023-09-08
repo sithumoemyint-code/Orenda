@@ -24,11 +24,15 @@ const NavBar = () => {
 
     const handleNav = id => setSelectNumber(id)
 
+    const handleLogo = () =>  setSelectNumber(null)
+
     return (
         <div className={`nav`} ref={headerRef}>
             <div className={`${NavCss.wrapper}`}>
                 <Link to="/" >
-                    <img src={logo} alt="Logo" />
+                    <span onClick={handleLogo}>
+                        <img src={logo} alt="Logo" />
+                    </span>
                 </Link>
                 <nav ref={menuLeft}>
                     <div className={NavCss.toggle_close} onClick={menuToggle}>
@@ -51,9 +55,8 @@ const NavBar = () => {
                             </div>
                             
                             {NavBars?.map(nav => (
-                                <Link to={nav.link}>
+                                <Link to={nav.link} key={nav.id}>
                                     <span 
-                                        key={nav.id} 
                                         onClick={() => handleNav(nav.id)} 
                                         className={`cursor-pointer text-black pl-5 font-semibold hover:text-textGoldColor transition-colors duration-300 navbar-list-group ${nav.id === selectNumber ? "text-textGoldColor" : "text-black" }`}
                                     >

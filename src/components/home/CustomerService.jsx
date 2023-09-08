@@ -62,7 +62,3 @@ const CustomerService = () => {
 }
 
 export default CustomerService
-
-
-{/* <div className='grid grid-cols-5 gap-10'> */}
-{/* </div> */}

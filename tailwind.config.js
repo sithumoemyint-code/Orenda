@@ -16,7 +16,7 @@ export default {
         newBgColor: "#F83030",
         textGray: "#757575"
       }
-    },
+    }
   },
   plugins: [],
 }

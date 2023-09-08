@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-1.png",
+        "title": "National Drug Management System"
+    },
+    {
+        "id": 2,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-2.png",
+        "title": "Public Administration System ofVietnam Food Administration (VFA)"
+    },
+    {
+        "id": 3,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-3.png",
+        "title": "Public Administration System ofDrug Administration of Vietnam (DAV)"
+    },
+    {
+        "id": 4,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-4.png",
+        "title": "Public Administration System ofTraditional Medicine Administration (TMA)"
+    },
+    {
+        "id": 5,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-5.png",
+        "title": "Sentinel Surveillance System"
+    },
+    {
+        "id": 6,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-6.png",
+        "title": "Antibiotic Resistance Electronic Reporting System"
+    },
+    {
+        "id": 7,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-7.png",
+        "title": "Medical Services Administration Information System"
+    },
+    {
+        "id": 8,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-8.png",
+        "title": "Grassroots Health Management System"
+    },
+    {
+        "id": 9,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-9.png",
+        "title": "National Immunization Information System"
+    },
+    {
+        "id": 10,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-10.png",
+        "title": "Nuti Expert Menu Building Software"
+    },
+    {
+        "id": 11,
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/du-an-avatar-11.png",
+        "title": "HIV Treatment and Prevention Management System"
+    }
+]

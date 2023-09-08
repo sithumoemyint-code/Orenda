@@ -1,8 +1,12 @@
 import React from 'react'
+import { PBanner, PJCard } from '../components'
 
 const Projects = () => {
     return (
-        <div>Projects</div>
+        <>
+            <PBanner />
+            <PJCard />
+        </>
     )
 }
 

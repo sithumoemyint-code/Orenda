@@ -4,6 +4,8 @@ import Happy from "./home/Happy"
 import Choose from "./home/Choose"
 import OrendaName from "./home/OrendaName"
 import CustomerService from "./home/CustomerService"
+import PBanner from "./projects/PBanner"
+import PJCard from "./projects/PJCard"
 
 export {
     Banner,
@@ -11,5 +13,7 @@ export {
     Happy,
     Choose,
     OrendaName,
-    CustomerService
+    CustomerService,
+    PBanner,
+    PJCard
 }
