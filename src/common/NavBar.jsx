@@ -1,14 +1,17 @@
-import  { useEffect, useRef } from 'react'
+import  { useEffect, useRef, useState } from 'react'
 import logo from '../assets/logo-h.png'
 import NavBars from '../data/nav.json'
 import {  FaBars } from "react-icons/fa"
 import {  AiOutlineLeft } from "react-icons/ai"
 import {  BiChevronDown } from "react-icons/bi"
 import NavCss from './Navbar.module.css'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     const headerRef = useRef(null)
     const menuLeft = useRef(null)
+    const [selectNumber, setSelectNumber] = useState(null)
+
     
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -17,15 +20,16 @@ const NavBar = () => {
         })
     }, [])
 
-    const menuToggle = () => menuLeft.current.classList.toggle('active')
+    const menuToggle = () =>  menuLeft.current.classList.toggle('active')
 
+    const handleNav = id => setSelectNumber(id)
 
     return (
         <div className={`nav`} ref={headerRef}>
             <div className={`${NavCss.wrapper}`}>
-                <div  >
+                <Link to="/" >
                     <img src={logo} alt="Logo" />
-                </div>
+                </Link>
                 <nav ref={menuLeft}>
                     <div className={NavCss.toggle_close} onClick={menuToggle}>
                         <AiOutlineLeft />
@@ -47,11 +51,16 @@ const NavBar = () => {
                             </div>
                             
                             {NavBars?.map(nav => (
-                                <span key={nav.id} className='cursor-pointer pl-5 font-semibold hover:text-textGoldColor transition-colors duration-300 navbar-list-group'>
-                                    {nav.name}
-                                </span>
+                                <Link to={nav.link}>
+                                    <span 
+                                        key={nav.id} 
+                                        onClick={() => handleNav(nav.id)} 
+                                        className={`cursor-pointer text-black pl-5 font-semibold hover:text-textGoldColor transition-colors duration-300 navbar-list-group ${nav.id === selectNumber ? "text-textGoldColor" : "text-black" }`}
+                                    >
+                                        {nav.name}
+                                    </span>
+                                </Link>
                             ))}
-                            
                         </div>
                     </div>
                 </nav>

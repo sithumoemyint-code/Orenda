@@ -1,26 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Products"
+        "name": "Products",
+        "link": "products"
     },
     {
         "id": 2,
-        "name": "Projects"
+        "name": "Projects",
+        "link": "projects"
     },
     {
         "id": 3,
-        "name": "About Us"
+        "name": "About Us",
+        "link": "aboutUs"
     },
     {
         "id": 4,
-        "name": "News"
+        "name": "News",
+        "link": "news"
     },
     {
         "id": 5,
-        "name": "Careers"
+        "name": "Careers",
+        "link": "careers"
     },
     {
         "id": 6,
-        "name": "Contact Us"
+        "name": "Contact Us",
+        "link": "contactUs"
     }
 ]

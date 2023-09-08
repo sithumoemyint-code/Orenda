@@ -19,6 +19,8 @@ const OrendaName = () => {
         slidesToScroll: 3,
         initialSlide: 0,
         arrows: false,
+        autoplay: true,
+        autoplaySpeed: 6000,
         responsive: [
           {
             breakpoint: 1024,
