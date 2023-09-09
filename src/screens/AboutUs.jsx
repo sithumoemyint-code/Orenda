@@ -1,8 +1,15 @@
 import React from 'react'
+import { AboutIntroduction, AboutBanner, AboutVision, AboutMission, AboutAboutUs } from '../components'
 
 const AboutUs = () => {
     return (
-        <div>AboutUs</div>
+        <>
+            <AboutBanner />
+            <AboutIntroduction />
+            <AboutVision />
+            <AboutMission />
+            <AboutAboutUs />
+        </>
     )
 }
 

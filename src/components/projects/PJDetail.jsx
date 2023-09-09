@@ -19,7 +19,7 @@ const PJDetail = ({detailId}) => {
             <div className='h-[240px] w-full m-auto relative'>
                 <div style={{ backgroundImage: `url(${detailInfo?.img})` }}  className='w-full h-full bg-center bg-cover object-cover duration-500' />
                 <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center flex-col justify-center'>
-                    <p className='text-white md:text-3xl text-2xl font-semibold'>{detailInfo?.title}</p>
+                    <p className='text-white md:text-3xl text-2xl font-semibold text-center'>{detailInfo?.title}</p>
                     <div className='h-1.5 w-28 bg-white mt-3' />
                 </div>
             </div>

@@ -8,6 +8,13 @@ import PBanner from "./projects/PBanner"
 import PJCard from "./projects/PJCard"
 import PJDetail from "./projects/PJDetail"
 import ProductBanner from "./products/ProductBanner"
+import AboutBanner from "./aboutus/AboutBanner"
+import AboutIntroduction from "./aboutus/AboutIntroduction"
+import AboutVision from "./aboutus/AboutVision"
+import AboutMission from "./aboutus/AboutMission"
+import AboutAboutUs from "./aboutus/AboutAboutUs"
+import AboutFoundation from "./aboutus/AboutFoundation"
+import OurPeople from "./aboutus/OurPeople"
 
 export {
     Banner,
@@ -19,5 +26,12 @@ export {
     PBanner,
     PJCard,
     PJDetail,
-    ProductBanner
+    ProductBanner,
+    AboutBanner,
+    AboutIntroduction,
+    AboutVision,
+    AboutMission,
+    AboutAboutUs,
+    AboutFoundation,
+    OurPeople
 }

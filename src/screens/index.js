@@ -17,5 +17,5 @@ export {
     News,
     ContactUs,
     Careers,
-    ProjectDetail
+    ProjectDetail,
 }
