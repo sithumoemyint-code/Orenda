@@ -110,3 +110,64 @@ nav a.active{
 .slick-list {
     margin: 0 -10px;
 }
+
+.tab_lichsu {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.tablinks {
+    display: inline-block;
+    margin-right: 100px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tablinks::before {
+    display: block;
+    content: "";
+    top: 21%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 29px;
+    background-color: #9e9e9e;
+    height: 2px;
+    width: 120px;
+}
+
+.tablinks:last-child:before {
+    display: block;
+    content: "";
+    top: 21%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 29px;
+    background: url(https://orenda.vn/wp-content/themes/flatsome-child/img/arrow1.png) no-repeat center right;
+    height: 16px;
+    width: 68px;
+}
+
+.presentation {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid #9e9e9e;
+}
+
+.presentation-active {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: #fcb815;
+    border-radius: 50%;
+    border: 3px solid #fcb815;
+}
+
+.tablinks .box {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+}

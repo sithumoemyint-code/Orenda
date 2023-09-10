@@ -36,7 +36,6 @@ const AboutAboutUs = () => {
                 </div>
               </React.Fragment>
             ))}
-            
           </div>
         </div>
 
