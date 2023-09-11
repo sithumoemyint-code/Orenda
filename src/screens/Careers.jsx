@@ -1,8 +1,13 @@
 import React from 'react'
+import { AboutCareers, BannerCareers, CardCareers } from '../components'
 
 const Careers = () => {
     return (
-        <div>Careers</div>
+        <>
+            <BannerCareers />
+            <CardCareers />
+            <AboutCareers />
+        </>
     )
 }
 

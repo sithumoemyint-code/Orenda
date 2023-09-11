@@ -17,6 +17,9 @@ import AboutFoundation from "./aboutus/AboutFoundation"
 import OurPeople from "./aboutus/OurPeople"
 import ProductList from "./products/ProductList"
 import ProductContactService from './products/ProductContactService'
+import AboutCareers from "./careers/AboutCareers"
+import CardCareers from "./careers/CardCareers"
+import BannerCareers from "./careers/BannerCareers"
 
 export {
     Banner,
@@ -37,5 +40,8 @@ export {
     AboutFoundation,
     OurPeople,
     ProductList,
-    ProductContactService
+    ProductContactService,
+    AboutCareers,
+    CardCareers,
+    BannerCareers
 }
