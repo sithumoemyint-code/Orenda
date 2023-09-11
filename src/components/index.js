@@ -15,6 +15,8 @@ import AboutMission from "./aboutus/AboutMission"
 import AboutAboutUs from "./aboutus/AboutAboutUs"
 import AboutFoundation from "./aboutus/AboutFoundation"
 import OurPeople from "./aboutus/OurPeople"
+import ProductList from "./products/ProductList"
+import ProductContactService from './products/ProductContactService'
 
 export {
     Banner,
@@ -33,5 +35,7 @@ export {
     AboutMission,
     AboutAboutUs,
     AboutFoundation,
-    OurPeople
+    OurPeople,
+    ProductList,
+    ProductContactService
 }

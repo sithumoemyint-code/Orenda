@@ -1,10 +1,12 @@
 import React from 'react'
-import { ProductBanner } from '../components'
+import { ProductBanner, ProductContactService, ProductList } from '../components'
 
 const Products = () => {
     return (
         <>
             <ProductBanner />
+            <ProductList />
+            <ProductContactService />
         </>
     )
 }

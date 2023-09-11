@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "title": "vClinic CLINIC MANAGEMENT SOLUTION",
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-6-1.png",
+        "img1": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-7-1.png",
+        "header1": "vClinic",
+        "header2": "CLINIC MANAGEMENT SOLUTION",
+        "des": "vClinic is a system that applies 4.0 technology in managing clinic operations in a comprehensive, effective, cost-effective way, contributing to improving the quality of medical examination and treatment at specialized clinics and polyclinics which have one or more facilities."
+    },
+    {
+        "id": 1,
+        "title": "GPP PHARMACY MANAGEMENT SOLUTION",
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-8-1.png",
+        "img1": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-9-1.png",
+        "header1": "GPP PHARMACY",
+        "header2": "MANAGEMENT SOLUTION",
+        "des": "Trusted and used by over 30,000 customers, this solution is a cooperation product between Orenda and Viettel Business Solution to perform the task of computerizing  10 modulesales management, drug warehouses, electronic invoices, ensuring the connection and 100 function of required data to the national drug administration system."
+    },
+    {
+        "id": 2,
+        "title": "SMED IMMUNIZATION CENTERS MANAGEMENT SOLUTION",
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-14-1.png",
+        "img1": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-15-1.png",
+        "header1": "SMED IMMUNIZATION CENTERS  ",
+        "header2": "MANAGEMENT SOLUTION",
+        "des": "SMED is a system  that provides professional management of the entire vaccination service process at vaccination facilities to meet the needs of administration and operation, while increasing business productivity and improving the efficiency of customer services."
+    },
+    {
+        "id": 3,
+        "title": "EDUMED SCHOOL HEALTH MANAGEMENT SOLUTION",
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-2-1.png",
+        "img1": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-3-1.png",
+        "header1": "EDUMED SCHOOL HEALTH",
+        "header2": "MANAGEMENT SOLUTION        ",
+        "des": "Edumed  is aimed to manage centralized data so as to effectively supporting school management, improving healthcare activities for students and teachers. The solution is developed with many functions, utilities, strong scalability and ability to connect to other systems in the Health – Education ecosystem."
+    },
+    {
+        "id": 4,
+        "title": "FOOD SAFETY INFORMATION SYSTEM",
+        "img": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-10-1.png",
+        "img1": "https://orenda.vn/wp-content/uploads/2022/10/san-pham-img-11-1.png",
+        "header1": "FOOD SAFETY",
+        "header2": "INFORMATION SYSTEM",
+        "des": "Food Safety Information System is an effective solution to improve and strengthen centralized management and strict control of food safety in the locality. Built on the platform of cloud computing technology, Food Safety Information System fully address the professional functions of state management of food safety."
+    },
+    {
+        "id": 5,
+        "title": "Website management platform Myportal",
+        "img": "https://orenda.vn/wp-content/uploads/2023/04/manmyportal-1.png",
+        "img1": "",
+        "header1": "",
+        "header2": "Myportal Website Management Platform",
+        "des": "Owning a website is the first step to start branding online. Using the open-source content management system – WordPress, Myportal Website Management Platform provides more than 500 website templates, in a variety of industries to meet the needs of making websites quickly."
+    },
+    {
+        "id": 6,
+        "title": "Department of Business Administration Solutions",
+        "img": "https://orenda.vn/wp-content/uploads/2023/04/hrmcut-1.png",
+        "img1": "https://orenda.vn/wp-content/uploads/2023/04/boqtridn-1.png",
+        "header1": "",
+        "header2": "Business Management Administration Package",
+        "des": "The solution suite provides a full range of business modules to support enterprise operation. Intuitive interface, easy-to-use, linked software, building a smart digital economy ecosystem exclusively for businesses."
+    },
+    {
+        "id": 7,
+        "title": "OLS - Online Learning Solution",
+        "img": "https://orenda.vn/wp-content/uploads/2023/03/ols1-1.png",
+        "img1": "https://orenda.vn/wp-content/uploads/2023/03/ols2-1.jpg",
+        "header1": "HỆ THỐNG QUẢN LÝ",
+        "header2": "VÀ ĐÀO TẠO NHÂN SỰ OLS",
+        "des": "OLS (Online Learning Solution) is the leading modern and effective online training solution in Vietnam. With full features for training such as course design, result reporting, exam building…, OLS is trusted and chosen by many businesses."
+    }
+]
